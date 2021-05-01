@@ -7,7 +7,7 @@ public class MyServer {
 
     public static void main(String[] args) {
         try {
-             ServerSocket ss = new ServerSocket(6666);
+             ServerSocket ss = new ServerSocket(8888);
             while(true)
             {
             System.out.println("Going to established connection\n\n\n");

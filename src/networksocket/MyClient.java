@@ -11,8 +11,9 @@ public class MyClient {
     public static void main(String[] args) {
         try
         {
-            Socket s= new Socket("localhost",6666);
+            Socket s= new Socket("localhost",8888);
             DataOutputStream dout=new DataOutputStream(s.getOutputStream());
+            
             dout.writeUTF("end");
             dout.flush();   
             dout.close();
